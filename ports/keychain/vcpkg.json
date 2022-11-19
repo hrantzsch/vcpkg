@@ -1,0 +1,21 @@
+{
+  "name": "keychain",
+  "version-semver": "1.2.0",
+  "description": "A thin cross-platform wrapper to access the operating system's credential storage in C++",
+  "homepage": "https://github.com/hrantzsch/keychain",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    {
+      "name": "libsecret",
+      "platform": "linux"
+    }
+  ]
+}
